@@ -44,7 +44,7 @@ Projekt wymaga następujących elementów:
 
 ### Konstrukcja makiety
 
-- karton / pianka / sklejka
+- karton / sklejka / klocki Lego
 - elementy dekoracyjne
 
 
