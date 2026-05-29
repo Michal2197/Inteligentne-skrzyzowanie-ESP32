@@ -18,4 +18,10 @@ Projekt składa się z następujących modułów:
 * dwa serwomechanizmy sterujące rogatkami,
 * interfejs WWW umożliwiający sterowanie projektem.
 
+## Zasada działania
 
+Podczas normalnej pracy system steruje sygnalizacją świetlną na skrzyżowaniu zgodnie z zaprogramowanym cyklem.
+
+W momencie wykrycia pociągu przez czujnik ultradźwiękowy system uruchamia procedurę zabezpieczenia przejazdu kolejowego. Najpierw zatrzymywany jest ruch drogowy, następnie włączane są światła ostrzegawcze przejazdu kolejowego i opuszczane są rogatki.
+
+Po przejechaniu pociągu oraz wykryciu opuszczenia przejazdu przez drugi czujnik rogatki zostają podniesione, światła ostrzegawcze wyłączone, a sygnalizacja drogowa wraca do normalnego cyklu pracy.
