@@ -2,50 +2,26 @@
 
 ## Cel dokumentacji
 
-Folder zawiera dokumentację techniczną projektu inteligentnego skrzyżowania drogowego z przejazdem kolejowym sterowanego za pomocą ESP32.
+Folder zawiera dokumentację techniczną projektu inteligentnego skrzyżowania drogowego z przejazdem kolejowym sterowanego za pomocą mikrokontrolera ESP32.
 
-## Planowana zawartość
+## Zawartość dokumentacji
 
-- schemat połączeń elektrycznych
-- opis architektury systemu
-- dokumentacja budowy makiety
-- instrukcja uruchomienia
-- opis interfejsu WWW
-- zdjęcia gotowego projektu
+### Opis architektury systemu
 
-## Wymagane komponenty
+Opis działania programu oraz współpracy poszczególnych modułów projektu.
 
-Projekt wymaga następujących elementów:
+### Dokumentacja budowy makiety
 
-### Mikrokontroler
+Instrukcja budowy makiety krok po kroku wraz ze zdjęciami.
 
-- 1 × ESP32 DevKit
+### Instrukcja uruchomienia
 
-### Sygnalizacja drogowa
+Opis wgrywania programu do ESP32 oraz uruchomienia projektu.
 
-- 9 × dioda LED
-- 9 × rezystor 220Ω lub 330Ω
+### Opis interfejsu WWW
 
-### Przejazd kolejowy
+Opis działania strony internetowej służącej do sterowania i monitorowania projektu.
 
-- 2 × serwomechanizm
-- 4 × czerwona dioda LED
-- 4 × rezystor 220Ω lub 330Ω
-- 2 × czujnik odległości
+### Zdjęcia gotowego projektu
 
-### Połączenia elektryczne
-
-- płytka stykowa
-- przewody połączeniowe
-
-### Zasilanie
-
-- źródło zasilania 5V
-
-### Konstrukcja makiety
-
-- karton / sklejka / klocki Lego
-- elementy dekoracyjne
-
-
-
+Dokumentacja fotograficzna ukończonego projektu.
