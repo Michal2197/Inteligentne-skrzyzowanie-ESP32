@@ -6,3 +6,4 @@ Przejazd kolejowy wyposażono w dwa serwomechanizmy sterujące rogatkami oraz dw
 Poniżej przedstawiono schemat połączeń wszystkich elementów projektu.
 
 ![Schemat połączeń](../images/schemat-polaczen.png)
+
