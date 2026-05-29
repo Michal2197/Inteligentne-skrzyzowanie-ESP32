@@ -15,3 +15,17 @@ Pierwszym etapem budowy było przygotowanie podstawy makiety.
 Jako podstawę wykorzystano karton, na którym zostanie umieszczona droga, przejazd kolejowy oraz wszystkie elementy elektroniczne projektu.
 
 Na tym etapie wyznaczono również orientacyjne położenie torów kolejowych oraz skrzyżowania.
+
+![Krok 1 - przygotowanie podstawy](../images/budowa/krok-1.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
