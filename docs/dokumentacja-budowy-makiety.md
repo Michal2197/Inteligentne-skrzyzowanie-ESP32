@@ -116,10 +116,18 @@ Sygnalizacja świetlna oraz rogatki zostały zamocowane przy użyciu plasteliny.
 
 Przewody połączeniowe zostały poprowadzone pod drogą makiety, dzięki czemu są mniej widoczne i nie wpływają na wygląd całej konstrukcji. Takie rozwiązanie poprawia estetykę projektu oraz zmniejsza ryzyko przypadkowego zahaczenia o przewody podczas prezentacji.
 
-![Krok 7 – montaż końcowy makiety](../images/budowa/krok-7.jpg)
+![Krok 7 – montaż końcowy makiety](../images/budowa/krok-7a.jpg)
 
 
+## Efekt końcowy
 
+Po zakończeniu wszystkich prac powstała w pełni funkcjonalna makieta inteligentnego skrzyżowania z przejazdem kolejowym sterowanego za pomocą mikrokontrolera ESP32.
+
+Makieta umożliwia prezentację działania sygnalizacji świetlnej, automatycznego sterowania rogatkami oraz wykrywania pociągu za pomocą czujników ultradźwiękowych.
+
+Poniżej przedstawiono gotowy projekt.
+
+![Gotowa makieta](../images/budowa/krok-7.jpg)
 
 
 
