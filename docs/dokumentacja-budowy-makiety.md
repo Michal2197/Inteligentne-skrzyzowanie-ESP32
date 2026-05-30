@@ -19,7 +19,15 @@ Na tym etapie wyznaczono również orientacyjne położenie torów kolejowych or
 ![Krok 1 - przygotowanie podstawy](../images/budowa/krok-1.jpg)
 
 
+## Krok 2 – wykonanie drogi i torów kolejowych
 
+Po przygotowaniu podstawy makiety wyznaczono przebieg drogi oraz przejazdu kolejowego.
+
+Droga została narysowana bezpośrednio na kartonie. Następnie w wyznaczonym miejscu zamontowano tory kolejowe wykonane z klocków LEGO.
+
+Na tym etapie określono ostateczne położenie skrzyżowania oraz przejazdu kolejowego, co ułatwiło rozmieszczenie pozostałych elementów makiety.
+
+![Krok 2 – wykonanie drogi i torów](../images/budowa/krok-2.jpg)
 
 
 
