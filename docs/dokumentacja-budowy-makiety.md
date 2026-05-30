@@ -23,15 +23,24 @@ Na tym etapie wyznaczono również orientacyjne położenie torów kolejowych or
 
 Po przygotowaniu podstawy makiety wyznaczono przebieg drogi oraz przejazdu kolejowego.
 
-Droga została narysowana bezpośrednio na kartonie. Następnie w wyznaczonym miejscu zamontowano tory kolejowe wykonane z klocków LEGO.
+Droga została narysowana bezpośrednio na kartonie. Następnie w wyznaczonym miejscu zamontowano tory kolejowe wykonane z klocków LEGO. Przymocowano je za pomocą plateliny.
 
 Na tym etapie określono ostateczne położenie skrzyżowania oraz przejazdu kolejowego, co ułatwiło rozmieszczenie pozostałych elementów makiety.
 
 ![Krok 2 – wykonanie drogi i torów](../images/budowa/krok-2.jpg)
 
 
+## Krok 3 – budowa rogatek
 
+Kolejnym etapem było wykonanie rogatek przejazdu kolejowego.
 
+Do budowy ramion rogatek wykorzystano patyczki po lodach, które zostały przymocowane do serwomechanizmów za pomocą taśmy klejącej. Dzięki temu możliwe jest automatyczne podnoszenie i opuszczanie rogatek podczas działania systemu.
+
+W celu stabilnego zamocowania serwomechanizmów wykonano konstrukcję z klocków LEGO. Pełni ona funkcję stojaka, który utrzymuje serwa we właściwej pozycji i zapobiega ich przemieszczaniu się podczas pracy.
+
+![Krok 3 – budowa rogatek](../images/budowa/krok-3.jpg)
+
+![Krok 3 – budowa rogatek](../images/budowa/krok-3a.jpg)
 
 
 
