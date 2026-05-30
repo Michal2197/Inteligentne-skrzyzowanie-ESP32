@@ -74,10 +74,30 @@ Podczas montażu należy zwrócić szczególną uwagę, aby przewody znajdujące
 ![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4d.jpg)
 
 
+## Krok 5 – montaż płytki stykowej i mikrokontrolera ESP32
+
+Kolejnym etapem było zamontowanie płytki stykowej oraz mikrokontrolera ESP32.
+
+Ze względu na brak przylutowanych listew goldpin w wykorzystanym mikrokontrolerze ESP32 zastosowano fragment pianki, który pełnił funkcję podkładki stabilizującej. Rozwiązanie to umożliwiło bezpieczne umieszczenie mikrokontrolera na makiecie oraz podłączenie przewodów do odpowiednich pinów.
+
+W przypadku mikrokontrolera wyposażonego w przylutowane listwy goldpin możliwe jest bezpośrednie umieszczenie go w płytce stykowej, bez konieczności stosowania dodatkowej podkładki.
+
+Po zamontowaniu płytki stykowej oraz ESP32 przygotowano układ do wykonania wszystkich połączeń elektrycznych.
+
+![Krok 5 – montaż płytki stykowej i ESP32](../images/budowa/krok-5.jpg)
 
 
+## Krok 6 – montaż czujników ultradźwiękowych
 
+Następnym etapem było zamontowanie czujników ultradźwiękowych odpowiedzialnych za wykrywanie nadjeżdżającego oraz odjeżdżającego pociągu.
 
+Do wykonania uchwytów wykorzystano klocki LEGO, które zapewniły stabilne mocowanie czujników. Dodatkowo zastosowano plastelinę, dzięki której możliwe było precyzyjne ustawienie czujników pod odpowiednim kątem.
+
+Jeden czujnik umieszczono przed przejazdem kolejowym, natomiast drugi za przejazdem. Takie rozmieszczenie umożliwia wykrycie wjazdu pociągu na przejazd oraz opuszczenia przez niego strefy przejazdu.
+
+Po zamontowaniu czujników sprawdzono poprawność ich działania oraz zakres wykrywania obiektów.
+
+![Krok 6 – montaż czujników ultradźwiękowych](../images/budowa/krok-6.jpg)
 
 
 
