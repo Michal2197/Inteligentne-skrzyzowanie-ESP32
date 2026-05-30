@@ -100,7 +100,23 @@ Po zamontowaniu czujników sprawdzono poprawność ich działania oraz zakres wy
 ![Krok 6 – montaż czujników ultradźwiękowych](../images/budowa/krok-6.jpg)
 
 
+## Krok 7 – montaż końcowy makiety
 
+Po przygotowaniu wszystkich elementów przystąpiono do montażu końcowego makiety.
+
+Na tym etapie zamontowano sygnalizację świetlną, rogatki, czujniki ultradźwiękowe, płytkę stykową oraz mikrokontroler ESP32. Wszystkie elementy zostały rozmieszczone zgodnie z wcześniej przygotowanym projektem.
+
+W miejscach, gdzie sygnalizacja świetlna lub czujniki znajdowały się w większej odległości od mikrokontrolera ESP32, zastosowano dodatkowe przewody połączeniowe umożliwiające prawidłowe podłączenie wszystkich elementów.
+
+W celu zwiększenia stabilności konstrukcji wybrane elementy zostały dodatkowo przymocowane za pomocą taśmy, co zapobiega ich przesuwaniu się podczas użytkowania i prezentacji projektu.
+
+Po zakończeniu montażu sprawdzono poprawność wszystkich połączeń elektrycznych oraz działanie poszczególnych elementów systemu.
+
+Sygnalizacja świetlna oraz rogatki zostały zamocowane przy użyciu plasteliny. Rozwiązanie to umożliwiło szybkie ustawienie elementów we właściwej pozycji oraz ich stabilne przymocowanie do podłoża makiety. Dodatkowo plastelina pozwala na łatwą zmianę położenia elementów podczas dalszych prac nad projektem.
+
+Przewody połączeniowe zostały poprowadzone pod drogą makiety, dzięki czemu są mniej widoczne i nie wpływają na wygląd całej konstrukcji. Takie rozwiązanie poprawia estetykę projektu oraz zmniejsza ryzyko przypadkowego zahaczenia o przewody podczas prezentacji.
+
+![Krok 7 – montaż końcowy makiety](../images/budowa/krok-7.jpg)
 
 
 
