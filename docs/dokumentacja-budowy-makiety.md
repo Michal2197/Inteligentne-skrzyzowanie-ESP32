@@ -43,6 +43,64 @@ W celu stabilnego zamocowania serwomechanizmów wykonano konstrukcję z klocków
 ![Krok 3 – budowa rogatek](../images/budowa/krok-3a.jpg)
 
 
+## Krok 4 – montaż sygnalizacji świetlnej
+
+Kolejnym etapem było wykonanie sygnalizacji świetlnej skrzyżowania oraz świateł ostrzegawczych przejazdu kolejowego.
+
+Do wykonania pojedynczego światła wykorzystano:
+
+- 1 diodę LED,
+- 1 rezystor,
+- 2 przewody połączeniowe damsko-męskie.
+
+Krótsza nóżka diody LED (katoda) została połączona z rezystorem. Następnie do wolnej końcówki rezystora podłączono przewód połączeniowy.
+
+Drugi przewód został podłączony do dłuższej nóżki diody LED (anody).
+
+W ten sposób przygotowano wszystkie światła wykorzystane w projekcie. Następnie zamontowano je na słupach wykonanych z patyczków po lodach.
+
+![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4.jpg)
+
+![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4a.jpg)
+
+![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4b.jpg)
+
+!!!UWAGA!!!
+
+Podczas montażu należy zwrócić szczególną uwagę, aby przewody znajdujące się z tyłu sygnalizatora nie stykały się ze sobą. Kontakt przewodów może spowodować zwarcie, co może doprowadzić do nieprawidłowego działania układu lub uszkodzenia elementów elektronicznych.Można je zabezpieczyć czarną taśmą izolacyjną.
+
+![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4c.jpg)
+
+![Krok 4 – montaż sygnalizacji świetlnej](../images/budowa/krok-4d.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
