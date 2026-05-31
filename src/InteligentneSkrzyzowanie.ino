@@ -2,7 +2,7 @@
 #include <WebServer.h>
 #include <ESP32Servo.h>
 
-const char* ssid = "Nazwa Internet"
+const char* ssid = "Nazwa internetu";
 const char* password = "Hasło";
 
 WebServer server(80);
@@ -12,20 +12,20 @@ const int drogaGlownaCzerwone = 2;
 const int drogaGlownaZolte = 15;
 const int drogaGlownaZielone = 18;
 
-// Drofa boczna
+// Droga boczna
 const int drogaBocznaCzerwone = 19;
 const int drogaBocznaZolte = 21;
 const int drogaBocznaZielone = 22;
 
-// Światła przejazdu kolejowego
+// Światla przejazdu
 const int przejazdLewy1 = 23;
 const int przejazdLewy2 = 25;
 const int przejazdPrawy1 = 26;
 const int przejazdPrawy2 = 27;
 
-// Rogatki
+// Rogatki  
 Servo rogatkaLewa;
-Servo rogatkaPrawa;
+Servo rogatkaPrawa; 
 
 const int pinRogatkaLewa = 32;
 const int pinRogatkaPrawa = 33;
@@ -39,7 +39,6 @@ const int echo1 = 5;
 
 const int trig2 = 13;
 const int echo2 = 34;
-
 
 
 int etapSwiatel = 0;
@@ -128,7 +127,6 @@ void loop() {
   server.handleClient();
 
   aktualizujPomiary();
-  //pokazOdleglosci();
 
   if (!przejazdAktywny) {
     if (odleglosc1 <= 20) {
@@ -212,21 +210,28 @@ void naturalnieZatrzymajRuch() {
 }
 
 void sprawdzZakonczeniePrzejazdu() {
+
   if (kierunekPociagu == 1) {
+
+    // pociąg dojechał do czujnika 2
     if (odleglosc2 <= 20) {
       czujnikWyjazdowyWykrylPociag = true;
     }
 
+    // pociąg odjechał od czujnika 2
     if (czujnikWyjazdowyWykrylPociag && odleglosc2 > 20) {
       zakonczPrzejazd();
     }
   }
 
   if (kierunekPociagu == 2) {
+
+    // pociąg dojechał do czujnika 1
     if (odleglosc1 <= 20) {
       czujnikWyjazdowyWykrylPociag = true;
     }
 
+    // pociąg odjechał od czujnika 1
     if (czujnikWyjazdowyWykrylPociag && odleglosc1 > 20) {
       zakonczPrzejazd();
     }
@@ -382,6 +387,8 @@ float zmierzOdleglosc(int trigPin, int echoPin) {
 
   return czas * 0.034 / 2;
 }
+
+//pokazOdleglosci();
 
 /*void pokazOdleglosci() {
   if (millis() - ostatniSerial >= 300) {
