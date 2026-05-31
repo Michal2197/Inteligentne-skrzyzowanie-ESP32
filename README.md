@@ -1,4 +1,4 @@
-# Inteligentne skrzyzowanie ESP32
+# Inteligentne skrzyżowanie ESP32
 
 Projekt edukacyjny przedstawiający inteligentne skrzyżowanie wraz z przejazdem kolejowym wykonane z wykorzystaniem ESP32.
 
