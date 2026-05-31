@@ -26,4 +26,4 @@ Po wpisaniu tego adresu do przeglądarki internetowej użytkownik uzyskuje dost�
 
 Poniżej przedstawiono wygląd interfejsu WWW.
 
-![Interfejs WWW](../images/interfejs-www.jpg)
+![Interfejs WWW](../images/interfejswww.jpg)
