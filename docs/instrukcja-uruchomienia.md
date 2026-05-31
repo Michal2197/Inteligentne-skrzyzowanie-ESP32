@@ -252,15 +252,9 @@ src/
 └── sygnalizacja-przejazdu.cpp
 ```
 
-Opis plików:
 
-| Plik | Opis |
-|--------|--------|
-| InteligentneSkrzyzowanie.ino | Główny program projektu |
-| czujniki.cpp | Obsługa czujników ultradźwiękowych |
-| konfiguracja.cpp | Konfiguracja systemu |
-| przejazd.cpp | Logika przejazdu kolejowego |
-| rogatki.cpp | Sterowanie rogatkami |
-| serwerWWW.cpp | Interfejs WWW |
-| swiatla.cpp | Sterowanie sygnalizacją drogową |
-| sygnalizacja-przejazdu.cpp | Sterowanie światłami przejazdu kolejowego |
+
+
+
+
+
