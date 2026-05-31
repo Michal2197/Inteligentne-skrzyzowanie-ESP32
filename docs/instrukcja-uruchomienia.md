@@ -28,28 +28,239 @@ W polu „Dodatkowe adresy URL do menedżera płytek” należy dodać:
 
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
-Następnie należy przejść do:
+Następnie przejść do:
 
-Narzędzia → Płytka → Menedżer płytek
+**Tools → Board → Boards Manager**
 
-i zainstalować pakiet ESP32.
+Wyszukać:
 
-## Instalacja bibliotek
+```text
+esp32
+```
 
-Projekt wykorzystuje następujące biblioteki:
+## Instalacja wymaganych bibliotek
 
-- WiFi
-- WebServer
-- ESP32Servo
+W Arduino IDE należy otworzyć:
 
-Biblioteki można zainstalować z poziomu Menedżera bibliotek Arduino IDE.
+**Sketch → Include Library → Manage Libraries**
 
-## Konfiguracja sieci WiFi
+Następnie zainstalować następujące biblioteki:
 
-Przed wgraniem programu należy uzupełnić dane sieci WiFi.
+### ESP32Servo
 
-W pliku programu należy zmienić:
+Wyszukać:
+
+```text
+ESP32Servo
+```
+
+i zainstalować bibliotekę autorstwa:
+
+```text
+Kevin Harrington, John K. Bennett
+```
+
+Biblioteki `WiFi.h` oraz `WebServer.h` są dostarczane wraz z pakietem ESP32 i nie wymagają dodatkowej instalacji.
+
+---
+
+## Otwarcie projektu
+
+1. Uruchomić Arduino IDE.
+2. Wybrać:
+
+   **File → Open**
+
+3. Otworzyć plik:
+
+```text
+InteligentneSkrzyzowanie.ino
+```
+
+znajdujący się w katalogu projektu.
+
+---
+
+## Konfiguracja sieci Wi-Fi
+
+Przed wgraniem programu należy uzupełnić dane sieci bezprzewodowej.
+
+W pliku głównym projektu należy odnaleźć fragment:
 
 ```cpp
-const char* ssid = "NAZWA_WIFI";
-const char* password = "HASLO_WIFI";
+const char* ssid = "Nazwa internetu";
+const char* password = "Hasło";
+```
+
+i zastąpić go własnymi danymi:
+
+```cpp
+const char* ssid = "MojaSiecWiFi";
+const char* password = "MojeHaslo";
+```
+
+---
+
+## Wybór płytki i portu
+
+Podłączyć ESP32 do komputera za pomocą przewodu USB.
+
+Następnie w Arduino IDE ustawić:
+
+### Płytka
+
+**Tools → Board → ESP32 Arduino → ESP32 Dev Module**
+
+### Port
+
+**Tools → Port**
+
+i wybrać port COM przypisany do płytki ESP32.
+
+Przykład:
+
+```text
+COM5
+```
+
+---
+
+## Kompilacja programu
+
+W celu sprawdzenia poprawności kodu należy kliknąć przycisk:
+
+```text
+Verify
+```
+
+lub wybrać:
+
+```text
+Sketch → Verify/Compile
+```
+
+Po poprawnej kompilacji nie powinny pojawić się żadne błędy.
+
+---
+
+## Wgranie programu do ESP32
+
+Aby wgrać program do mikrokontrolera należy kliknąć:
+
+```text
+Upload
+```
+
+lub wybrać:
+
+```text
+Sketch → Upload
+```
+
+Po zakończeniu procesu program zostanie uruchomiony automatycznie.
+
+---
+
+## Odczyt adresu IP
+
+Po uruchomieniu programu należy otworzyć monitor portu szeregowego:
+
+**Tools → Serial Monitor**
+
+oraz ustawić prędkość:
+
+```text
+115200 baud
+```
+
+W oknie monitora zostanie wyświetlony adres IP urządzenia.
+
+Przykład:
+
+```text
+Polaczono z WiFi
+Adres IP: 192.168.1.105
+```
+
+---
+
+## Uruchomienie interfejsu WWW
+
+Po odczytaniu adresu IP należy:
+
+1. Otworzyć przeglądarkę internetową.
+2. Wpisać adres IP wyświetlony przez ESP32.
+
+Przykład:
+
+```text
+http://192.168.1.105
+```
+
+Po załadowaniu strony zostanie wyświetlony panel sterowania przejazdem kolejowym.
+
+---
+
+## Funkcje interfejsu
+
+Interfejs WWW umożliwia:
+
+- podgląd aktualnego stanu przejazdu,
+- odczyt danych z czujników,
+- ręczne zgłoszenie nadjeżdżającego pociągu,
+- ręczne zakończenie przejazdu.
+
+---
+
+## Test działania systemu
+
+Po uruchomieniu należy sprawdzić poprawność działania:
+
+### Sygnalizacji drogowej
+
+- zmiana świateł dla drogi głównej,
+- zmiana świateł dla drogi bocznej,
+- zachowanie odpowiednich czasów przełączania.
+
+### Przejazdu kolejowego
+
+Po wykryciu pociągu przez czujnik:
+
+- uruchamiane są światła ostrzegawcze,
+- opuszczane są rogatki,
+- ruch drogowy zostaje zatrzymany.
+
+Po opuszczeniu strefy wykrywania przez pociąg:
+
+- rogatki zostają podniesione,
+- światła przejazdowe zostają wyłączone,
+- przywrócona zostaje normalna praca skrzyżowania.
+
+---
+
+## Struktura projektu
+
+```text
+src/
+├── InteligentneSkrzyzowanie.ino
+├── czujniki.cpp
+├── konfiguracja.cpp
+├── przejazd.cpp
+├── rogatki.cpp
+├── serwerWWW.cpp
+├── swiatla.cpp
+└── sygnalizacja-przejazdu.cpp
+```
+
+Opis plików:
+
+| Plik | Opis |
+|--------|--------|
+| InteligentneSkrzyzowanie.ino | Główny program projektu |
+| czujniki.cpp | Obsługa czujników ultradźwiękowych |
+| konfiguracja.cpp | Konfiguracja systemu |
+| przejazd.cpp | Logika przejazdu kolejowego |
+| rogatki.cpp | Sterowanie rogatkami |
+| serwerWWW.cpp | Interfejs WWW |
+| swiatla.cpp | Sterowanie sygnalizacją drogową |
+| sygnalizacja-przejazdu.cpp | Sterowanie światłami przejazdu kolejowego |
