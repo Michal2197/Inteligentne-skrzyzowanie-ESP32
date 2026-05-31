@@ -160,7 +160,7 @@ void stronaGlowna() {
   html += "</head><body>";
 
   html += "<div class='box'>";
-  html += "<h1>ESP32 Przejazd Kolejowy</h1>";
+  html += "<h1>Przejazd Kolejowy</h1>";
 
   html += "<p><b>Status:</b> ";
   html += przejazdAktywny ? "Pociag na przejezdzie" : "Normalny ruch drogowy";
