@@ -2,7 +2,7 @@
 #include <WebServer.h>
 #include <ESP32Servo.h>
 
-const char* ssid = "Nazwa internetu";
+const char* ssid = "Nazwa WIFI";
 const char* password = "Hasło";
 
 WebServer server(80);
