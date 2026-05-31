@@ -88,7 +88,7 @@ Przed wgraniem programu należy uzupełnić dane sieci bezprzewodowej.
 W pliku głównym projektu należy odnaleźć fragment:
 
 ```cpp
-const char* ssid = "Nazwa internetu";
+const char* ssid = "Nazwa WIFI";
 const char* password = "Hasło";
 ```
 
