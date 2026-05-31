@@ -22,7 +22,7 @@ Po zakończeniu instalacji należy dodać obsługę mikrokontrolerów ESP32.
 
 W Arduino IDE należy otworzyć:
 
-Plik → Preferencje
+File → Preferences...
 
 W polu „Dodatkowe adresy URL do menedżera płytek” należy dodać:
 
